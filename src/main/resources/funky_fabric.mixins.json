@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.nrobot10.funky_fabric.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
