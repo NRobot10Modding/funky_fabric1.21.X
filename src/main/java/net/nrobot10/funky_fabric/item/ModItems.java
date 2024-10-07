@@ -13,6 +13,8 @@ import net.nrobot10.funky_fabric.FunkyFabric;
 
 public class ModItems {
 
+    public static final Item WATCH = registerItem("watch", new Item(new Item.Settings()));
+
     private static void addItemsToFirstItemGroup(FabricItemGroupEntries entries) {
         entries.add(Items.STONE);
     }
